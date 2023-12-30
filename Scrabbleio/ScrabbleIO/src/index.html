@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Greyson McReynolds">
+  <meta name="description" content="Daily online Scrabble game">
+  <meta name="viewport" content="width=device-width">
+  <title>ScrabbleIO</title>
+  <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+  <div class="title">Scrabble.io</div>
+    <div class="image-container">
+      <img class="image" id="image1" src="img/rawA.png" alt="Image 1">
+      <img class="image" id="image2" src="img/rawB.png" alt="Image 2">
+      <img class="image" id="image3" src="img/rawC.png" alt="Image 3">
+      <img class="image" id="image4" src="img/rawD.png" alt="Image 4">
+      <img class="image" id="image5" src="img/rawE.png" alt="Image 5">
+      <img class="image" id="image6" src="img/rawF.png" alt="Image 6">
+      <img class="image" id="image7" src="img/rawG.png" alt="Image 7">
+    </div>
+
+    <div class="input-response">
+        <input class="response" type="text" id="input-1" placeholder="Answer:">
+        <div class="response">
+          <label id="score-label" for="score">Score:     </label> <span id="score">000</span>
+        </div>
+        <div class="response">
+          <label id="timer-label" for="time">Time:     </label> <span id="time">30</span>
+        </div>
+    </div>
+
+    <span class="feedback-class" id="feedback">Get as many words as you can in 30 seconds!</span>
+
+    <button type="button" id="begin">Begin Timer</button>
+
+</body>
+
+<script type="module" src="main.js"></script>
+
+</html>
